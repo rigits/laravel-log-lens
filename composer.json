@@ -1,0 +1,19 @@
+{
+    "name": "rigits/laravel-log-lens",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rigits\\LaravelLogLens\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rigits\\LaravelLogLens\\PackageServiceProvider"
+            ]
+        }
+    }
+}
