@@ -1,8 +1,20 @@
 {
     "name": "rigits/laravel-log-lens",
-    "type": "project",
+    "description": "A simple laravel logs lens",
+    "type": "laravel-package",
+    "keywords": ["log", "log-lens", "log-reader", "log-viewer","logging", "laravel"],
+    "authors": [
+        {
+            "name": "Aekansh Partani",
+            "email": "aekanshpartani@gmail.com"
+        },
+        {
+            "name": "Piyush Singh",
+            "email": "pyushsingh27@gmail.com"
+        }
+    ],
     "license": "MIT",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
